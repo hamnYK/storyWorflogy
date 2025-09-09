@@ -91,6 +91,17 @@
         border-top: 1px solid var(--border-color);
         margin: 2em 0;
     }
+    
+    /* ======== ▼ 이미지 스타일 (추가된 부분) ▼ ======== */
+    .container img {
+      max-width: 100%;      /* 이미지가 컨테이너 너비를 넘지 않도록 설정 (반응형) */
+      height: auto;         /* 이미지의 가로세로 비율 유지 */
+      display: block;       /* 이미지를 블록 요소로 만들어 위아래 여백 적용 용이 */
+      margin: 1.5em auto;   /* 위아래 여백을 주고, 좌우는 auto로 설정하여 가운데 정렬 */
+      border-radius: 6px;   /* 컨테이너와 일관된 둥근 모서리 */
+      box-shadow: 0 4px 6px rgba(36, 41, 46, 0.1); /* 약간의 그림자 효과로 입체감 부여 */
+    }
+    /* ======== ▲ 이미지 스타일 (추가된 부분) ▲ ======== */
 
     /* 테이블 스타일 */
     .container table {
